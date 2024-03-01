@@ -21,7 +21,7 @@ export function FiveStarRating({ rating }) {
   if (hasStarHalf) {
     starList.push(<StarHalf key={"star-half"} />);
   }
-  // Pusher dans le tableau les étoiles vide 2
+  // Pusher dans le tableau les étoiles vide
   for (let i = 1; i <= emptyStarCount; i++) {
     starList.push(<StarEmpty key={"star-empty" + i} />);
   }
